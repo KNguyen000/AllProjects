@@ -1,4 +1,6 @@
-# Innstructions
+Apply Object Detection model to any image or video
+
+# Instructions
 Look at detected-bike.jpg and detected-trimmed-highway.mp4 for results.
 
 Run runMe.ipynb and change path of image or video to your image or video, then run program.
