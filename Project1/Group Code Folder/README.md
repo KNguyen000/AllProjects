@@ -1,29 +1,29 @@
-# README #
+# Group Project Code #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Group project Code
 
-### What is this repository for? ###
+### Steps to download data ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+go to src/init/DataExtraction.ipynb to download data.
+Then select a model from /src to run the data.
 
-### How do I get set up? ###
+### Pre-processing ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+* Sample Rate = 10000.
+* Audio was trimmed, and duration of audio was 5 seconds.
+* Removed all audio that was less than 5 seconds.
+* Use dataset of 1000 samples.
+* Balance data between male and female
+* Collect and assign information of sex of speakers from SPEAKER.txt
+* Computer Mel-Spectrogram (amplitude -> spectrogram -> mel-spectrogram)
 
-### Contribution guidelines ###
+# Training Model #
 
-* Writing tests
-* Code review
-* Other guidelines
+Models were split amongst authors
 
-### Who do I talk to? ###
+### Models used ###
 
-* Repo owner or admin
-* Other community or team contact
+* LSTM
+* ResNet
+* VGG
+* RF
