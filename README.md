@@ -3,7 +3,7 @@ Collection of my ML Projects
 
 # Project 1
 Use Audio from Amazon audiobook speakers and classify whether the speaker is either male or female.
-Report for project is also included
+Report for project is also included.
 Project is viewing only as data is 8gb and will not fit in Github.
 
 # Project 2
